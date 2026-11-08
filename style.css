@@ -94,6 +94,13 @@ body {
   transform: scale(1);
   transition: all .5s ease-in-out;
 }
+#btn__letter:active{
+  transform: scale(0.7);
+}
+#btn__letter i{
+  margin-left: 5px;
+}
+
 
   
 
