@@ -11,7 +11,7 @@
     --color-white: #fff;
     --color-black: #333;
     --color-text-blue: #002a73;
-    --color-heart: #f61fa4;
+    --color-heart: #f61f8e;
     --color-bg-letter: #e4fbff;
     --color-border: #bfd6da;
 }
@@ -67,6 +67,32 @@ body {
 }
 .content .left{
   width: 40%;
+  padding-left: 100px;
+}
+.content .right{
+  width:  60%;
+}
+.left .btn{
+    transform: scale(0);
+    animation: scaleCircle 2s 16s forward ease-in-out;
+}
+#btn__letter{
+  position: relative;
+  margin-top: 30px;
+  background-color: var(--color-blue);
+  outline: none;
+  padding: 5px 15px;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: 3px solid var(--color-black);
+  font-family: "Sriracha", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  transform: scale(1);
+  transition: all .5s ease-in-out;
 }
 
   
